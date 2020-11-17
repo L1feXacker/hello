@@ -1,0 +1,68 @@
+#face {
+  background: #f5f5dc;
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.eye {
+  width: 50px;
+  height: 50px;
+  background: blue;
+  display: inline-block;
+  padding: 15px;
+}
+
+.eyes {
+  width: 165px;
+  margin: 0 auto;
+  padding: 10px;
+    display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.ears {
+  height: 100px;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.ear {
+  height: 70px;
+  background-color: blue;
+  display: inline-block;
+  padding: 20px;
+}
+
+.right-ear {
+  align: bottom-left;
+}
+
+.nose {
+  padding: 20px;
+  display: inline-block;
+  background-color: blue;
+}
+
+#mouth:hover {
+  width: 290px;
+  height: 50px;
+}
+
+#mouth {
+  text-align: center;
+  width: 200px;
+  height: 60px;
+  background: red;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.buttons {
+  margin: 10px;
+}
+a {
+  color: black;
+}

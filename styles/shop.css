@@ -1,0 +1,18 @@
+a {
+  color: black;
+}
+.buttons {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .smartphones {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .smartphones {
+    width: 100%;
+  }
+}
